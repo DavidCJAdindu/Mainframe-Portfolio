@@ -1,7 +1,6 @@
 <?php
 
 include_once("root/index.html");
-include_once("root/style.css");
 
 
 $file = 'images/about-me.jpg';
