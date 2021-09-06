@@ -1,6 +1,6 @@
 <?php
 
-include_once("root/index.html");
+include_once("index.html");
 
 
 $file = 'images/about-me.jpg';
