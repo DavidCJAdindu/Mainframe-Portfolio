@@ -9,8 +9,8 @@ $file = 'images/about-me.jpg';
 $type = 'image/jpg';
 header('Content-Type:'.$type);
 header('Content-Length: ' . filesize($file));
-header("Content-type: text/css; charset: UTF-8");
-header("Content-type: text/js; charset: UTF-8");
+header("Content-type: text/css");
+header("Content-type: text/js");
 readfile($file);
 
 ?>
